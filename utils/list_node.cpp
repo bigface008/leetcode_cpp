@@ -37,6 +37,5 @@ void listNodeAssert(std::string &&prefix, ListNode *head, std::vector<int> &&vec
             }
         }
     }
-    leetcode_assert(isSame, std::move(prefix));
-    fmt::println(" output={} expect={}", nodeVec, vec);
+    leetcode_assert(isSame, "{} output={} expect={}", std::move(prefix), nodeVec, vec);
 }

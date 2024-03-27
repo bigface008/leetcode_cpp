@@ -25,3 +25,7 @@ target_include_directories(utils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/utils)
 link_libraries(utils)
 
 add_executable(longest_substr leetcode/longest_substr.cpp)
+add_executable(add_binary leetcode/add_binary.cpp)
+add_executable(bytedance leetcode/bytedance.cpp)
+add_executable(two_sum leetcode/two_sum.cpp)
+add_executable(add_two_numbers leetcode/add_two_numbers.cpp)

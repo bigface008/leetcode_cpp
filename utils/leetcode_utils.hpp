@@ -10,6 +10,8 @@
 #include <map>
 #include <string>
 #include <vector>
+#include <stack>
+#include "list_node.h"
 
 template <typename... Args>
 void leetcode_assert(bool is_right, const fmt::format_string<Args...> fmt_str, Args &&...args) {
@@ -18,14 +20,6 @@ void leetcode_assert(bool is_right, const fmt::format_string<Args...> fmt_str, A
         fmt::println("[PASSED] {}", desc);
     } else {
         fmt::println("[FAILED] {}", desc);
-    }
-}
-
-void leetcode_assert(bool is_right, std::string str) {
-    if (is_right) {
-        fmt::println("[PASSED] {}", str);
-    } else {
-        fmt::println("[FAILED] {}", str);
     }
 }
 
