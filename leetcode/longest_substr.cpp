@@ -1,12 +1,12 @@
 //
 // Created by 汪喆昊 on 2024/3/27.
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //
 
 #include "leetcode_utils.hpp"
 
 using namespace std;
 
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/
 int lengthOfLongestSubstring(string s) {
     map<char, int> charIdxMap;
     int len = 0;

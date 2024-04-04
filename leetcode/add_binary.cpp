@@ -1,13 +1,12 @@
 //
 // Created by 汪喆昊 on 2024/3/27.
+// https://leetcode.com/problems/add-binary/?envType=study-plan-v2&envId=top-interview-150
 //
 
 #include "leetcode_utils.hpp"
 
 using namespace std;
 
-// https://leetcode.com/problems/add-binary/?envType=study-plan-v2&envId=top-interview-150
-//
 // The solution to this problem should be to simply traverse both strings, using an integer value to represent carry,
 // say, 'carry', and another integer to represent the index. At the beginning of each iteration, check if the current
 // index is out of range in the input string. If it is within range, add its value to 'carry'. Then, check if 'carry' is

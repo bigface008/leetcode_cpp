@@ -1,12 +1,12 @@
 //
 // Created by 汪喆昊 on 2024/3/27.
+// https://leetcode.com/problems/two-sum/
 //
 
 #include "leetcode_utils.hpp"
 
 using namespace std;
 
-// https://leetcode.com/problems/two-sum/
 vector<int> twoSum(vector<int> &nums, int target) {
     map<int, int> indice_map;
     for (int i = 0; i < nums.size(); ++i) {
