@@ -12,6 +12,7 @@
 #include <vector>
 #include <stack>
 #include <queue>
+#include <unordered_set>
 #include "list_node.h"
 
 template <typename... Args>
