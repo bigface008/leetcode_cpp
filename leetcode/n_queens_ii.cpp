@@ -7,27 +7,22 @@
 
 using namespace std;
 
-void backtrack(vector<pair<int, int>> &selection, vector<bool> &row_visited, vector<bool> &col_visited, int row_beg,
-               int col_beg, int n, vector<vector<pair<int, int>>> &res) {
-    if (selection.size() == n) {
-        res.push_back(selection);
+void backtrack(int col, int &count, const int N, vector<bool> &row, vector<bool> &upper_diagonal, vector<bool> &lower_diagonal) {
+    if (col == N) {
+        count++;
         return;
     }
-    for (int i = 0; i < n; ++i) {
-        if (row_visited[i]) {
-            continue;
-        }
-        for (int j = 0; j < n; ++j) {
-            if (col_visited[j]) {
-                continue;
-            }
-            selection.emplace_back(i, j);
-            row_visited[i] = true;
-            col_visited[j] = true;
-            backtrack(selection, row_visited, col_visited, i, j, n, res);
-            row_visited[i] = false;
-            col_visited[j] = false;
-            selection.pop_back();
+    for (int i = 0; i < N; i++) {
+        int upper_index = i + col;
+        int lower_index = N + col - i - 1;
+        if (!row[i] && !upper_diagonal[upper_index] && !lower_diagonal[lower_index]) {
+            row[i] = true;
+            upper_diagonal[upper_index] = true;
+            lower_diagonal[lower_index] = true;
+            backtrack(col + 1, count, N, row, upper_diagonal, lower_diagonal);
+            row[i] = false;
+            upper_diagonal[upper_index] = false;
+            lower_diagonal[lower_index] = false;
         }
     }
 }
@@ -36,12 +31,13 @@ int totalNQueens(int n) {
     if (n == 0 || n == 1) {
         return n;
     }
-    vector<vector<pair<int, int>>> res;
-    vector<pair<int, int>> selection;
-    vector<bool> row_visited(n, false);
-    vector<bool> col_visited(n, false);
-    backtrack(selection, row_visited, col_visited, 0, 0, n, res);
-    return res.size();
+
+    vector<bool> row(n, false);
+    vector<bool> upper_diagonal(2 * n - 1, false);
+    vector<bool> lower_diagonal(2 * n - 1, false);
+    int ans = 0;
+    backtrack(0, ans, n, row, upper_diagonal, lower_diagonal);
+    return ans;
 }
 
 void helper(int col, int n, int &counter, vector<string> &temp, vector<int> &left, vector<int> &lower,
@@ -78,7 +74,7 @@ int totalNQueensV2(int n) {
 
 int main() {
     auto f = [](int n, int expect) {
-        int output = totalNQueensV2(n);
+        int output = totalNQueens(n);
         leetcode_assert(output == expect, "n queens n={} expect={} output={}", n, expect, output);
     };
     f(4, 2);
