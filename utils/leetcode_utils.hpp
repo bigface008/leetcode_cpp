@@ -8,13 +8,15 @@
 #include <fmt/format.h>
 #include <fmt/ranges.h>
 #include <map>
-#include <string>
-#include <vector>
-#include <stack>
 #include <queue>
-#include <unordered_set>
+#include <set>
+#include <stack>
+#include <string>
 #include <tuple>
-#include "list_node.h"
+#include <unordered_set>
+#include <vector>
+#include "list_node.hpp"
+#include "tree_node.h"
 
 template <typename... Args>
 void leetcode_assert(bool is_right, const fmt::format_string<Args...> fmt_str, Args &&...args) {
@@ -25,5 +27,8 @@ void leetcode_assert(bool is_right, const fmt::format_string<Args...> fmt_str, A
         fmt::println("[FAILED] {}", desc);
     }
 }
+
+std::vector<std::vector<int>> make2DIntVecByStr(std::string &&vec_str);
+std::vector<int> makeIntVecByStr(std::string &&vec_str);
 
 #endif // LEETCODE_CPP_LEETCODE_UTILS_HPP

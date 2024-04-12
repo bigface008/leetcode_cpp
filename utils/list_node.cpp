@@ -2,9 +2,11 @@
 // Created by 汪喆昊 on 2024/3/27.
 //
 
-#include "list_node.h"
+#include "list_node.hpp"
 #include <fmt/core.h>
 #include "leetcode_utils.hpp"
+
+using namespace std;
 
 ListNode *newList(const std::vector<int> &&vec) {
     auto *extra = new ListNode();
@@ -19,23 +21,19 @@ ListNode *newList(const std::vector<int> &&vec) {
     return res;
 }
 
-void listNodeAssert(std::string &&prefix, ListNode *head, std::vector<int> &&vec) {
-    ListNode *node = head;
-    std::vector<int> nodeVec;
-    bool isSame = true;
+vector<int> node2Vec(const ListNode *head) {
+    auto *node = head;
+    vector<int> vec;
     while (node != nullptr) {
-        nodeVec.push_back(node->val);
+        vec.push_back(node->val);
         node = node->next;
     }
-    if (nodeVec.size() != vec.size()) {
-        isSame = false;
-    } else {
-        for (int i = 0; i < vec.size(); ++i) {
-            if (nodeVec[i] != vec[i]) {
-                isSame = false;
-                break;
-            }
-        }
-    }
-    leetcode_assert(isSame, "{} output={} expect={}", std::move(prefix), nodeVec, vec);
+    return vec;
+}
+
+void listNodeAssert(std::string &&prefix, ListNode *head, std::vector<int> &&vec) {
+    auto node_vec = node2Vec(head);
+    bool same = equal(node_vec.begin(), node_vec.end(), vec.begin(), vec.end());
+    leetcode_assert(same, "{} output={} expect={}", std::move(prefix), node_vec, vec);
+//    leetcode_assert(same, "{} output={} expect={}", std::move(prefix), node_vec, vec);
 }
