@@ -43,6 +43,39 @@ std::vector<std::vector<int>> make2DIntVecByStr(std::string &&vec_str) {
     return res;
 }
 
+std::vector<std::vector<std::string>> make2DStrVecByStr(std::string &&vec_str) {
+    vector<vector<string>> res;
+    vector<string> sub_vec;
+    int bracket_cnt = 0;
+    int i = 0;
+    while (i < vec_str.size()) {
+        if (vec_str[i] == '\"' && bracket_cnt == 2) {
+            int j = i + 1;
+            for (; j < vec_str.size(); j++) {
+                if (vec_str[j] == '\"') {
+                    break;
+                }
+            }
+            string str = vec_str.substr(i + 1, j - i - 1);
+            sub_vec.push_back(str);
+            i = j + 1;
+        } else if (vec_str[i] == '[') {
+            bracket_cnt++;
+            i++;
+        } else if (vec_str[i] == ']') {
+            bracket_cnt--;
+            if (bracket_cnt == 1) {
+                res.push_back(sub_vec);
+                sub_vec.clear();
+            }
+            i++;
+        } else {
+            i++;
+        }
+    }
+    return res;
+}
+
 std::vector<int> makeIntVecByStr(std::string &&vec_str) {
     vector<int> res;
     int i = 0;

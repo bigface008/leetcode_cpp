@@ -7,6 +7,7 @@
 
 #include <fmt/format.h>
 #include <fmt/ranges.h>
+#include <numeric>
 #include <map>
 #include <queue>
 #include <set>
@@ -29,6 +30,7 @@ void leetcode_assert(bool is_right, const fmt::format_string<Args...> fmt_str, A
 }
 
 std::vector<std::vector<int>> make2DIntVecByStr(std::string &&vec_str);
+std::vector<std::vector<std::string>> make2DStrVecByStr(std::string &&vec_str);
 std::vector<int> makeIntVecByStr(std::string &&vec_str);
 
 #endif // LEETCODE_CPP_LEETCODE_UTILS_HPP
