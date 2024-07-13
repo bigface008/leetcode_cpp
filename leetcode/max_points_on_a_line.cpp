@@ -35,6 +35,9 @@ int maxPoints(vector<vector<int>> &points) {
     return ans + 1;
 }
 
+int lisp_test() {
+}
+
 int main() {
     auto f = [](vector<vector<int>> &&points, int expect) {
         int output = maxPoints(points);

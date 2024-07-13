@@ -80,5 +80,13 @@ void test_sum_mod_k() {
 }
 
 int main() {
-    test_sum_mod_k();
+//    test_sum_mod_k();
+//    fmt::println("{}", INT_MAX);
+//    fmt::println("{}", UINT_MAX);
+    priority_queue<int> pq;
+    pq.push(12);
+    pq.push(12);
+    pq.push(13);
+    pq.push(12);
+    fmt::println("{}", pq);
 }

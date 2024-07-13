@@ -123,3 +123,8 @@ add_executable(longest_increasing_subsequence leetcode/longest_increasing_subseq
 add_executable(daily_temperatures leetcode/daily_temperatures.cpp)
 add_executable(online_stock_span leetcode/online_stock_span.cpp)
 add_executable(combination_sum_iii leetcode/combination_sum_iii.cpp)
+add_executable(successful_pairs_of_spells_and_potions leetcode/successful_pairs_of_spells_and_potions.cpp)
+add_executable(koko_eating_bananas leetcode/koko_eating_bananas.cpp)
+add_executable(total_cost_to_hire_k_workers leetcode/total_cost_to_hire_k_workers.cpp)
+add_executable(maximum_subsequence_score leetcode/maximum_subsequence_score.cpp)
+add_executable(xiaoyong companies/xiaoyong.cpp)
