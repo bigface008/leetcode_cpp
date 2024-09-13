@@ -11,4 +11,5 @@ To add new solution, run `add_solution`.
 
 ```bash
 $ python scripts/add_solution.py {url}
+# If the func name is correct, then input the function body and ^D.
 ```

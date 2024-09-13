@@ -15,15 +15,18 @@ cpp_template = """//
 
 using namespace std;
 
-{func_body}
+class Solution {{
+public:
+    {func_body}
+}}
 
 int main() {{
     auto f = []({param_list}) {{
-        auto output = {func_call};
+        auto output = Solution().{func_call};
         leetcode_assert(output == expect, "{problem_name} {param_format} expect={{}} output={{}}", {param_arg}, expect, output);
     }};
     f();
-}}
+}};
 """
 
 

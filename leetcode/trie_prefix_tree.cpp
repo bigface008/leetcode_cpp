@@ -4,6 +4,8 @@
 //
 
 #include "leetcode_utils.hpp"
+#include <bitset>
+#include <bit>
 
 using namespace std;
 
