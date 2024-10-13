@@ -9,6 +9,7 @@
 #include <fmt/ranges.h>
 #include <numeric>
 #include <map>
+#include <list>
 #include <queue>
 #include <set>
 #include <stack>
@@ -16,6 +17,7 @@
 #include <tuple>
 #include <unordered_set>
 #include <vector>
+#include <bitset>
 #include "list_node.hpp"
 #include "tree_node.h"
 

@@ -6,7 +6,60 @@
 
 using namespace std;
 
-bool isInterleave(string s1, string s2, string s3) {
+class Solution {
+public:
+    int M, N;
+    string s1;
+    string s2;
+    string s3;
+    vector<vector<int>> memo;
+
+    bool dfs(int i, int j) {
+        if (memo[i][j] != -1) {
+            return memo[i][j];
+        }
+        if (i == 0 && j == 0) {
+            memo[i][j] = true;
+            return true;
+        }
+        if (i == 0) {
+            int res = s3[j - 1] == s2[j - 1] && dfs(0, j - 1);
+            memo[i][j] = res;
+            return res;
+        }
+        if (j == 0) {
+            int res = s3[i - 1] == s1[i - 1] && dfs(i - 1, 0);
+            memo[i][j] = res;
+            return res;
+        }
+        if (s3[i + j - 1] == s1[i - 1] && dfs(i - 1, j)) {
+            memo[i][j] = true;
+            return true;
+        }
+        if (s3[i + j - 1] == s2[j - 1] && dfs(i, j - 1)) {
+            memo[i][j] = true;
+            return true;
+        }
+        memo[i][j] = false;
+        return false;
+    }
+
+    bool isInterleave(string s1, string s2, string s3) {
+        M = s1.size();
+        N = s2.size();
+        if (M + N != s3.size()) {
+            return false;
+        }
+        this->memo = vector<vector<int>>(M + 1, vector<int>(N + 1, -1));
+        this->s1 = s1;
+        this->s2 = s2;
+        this->s3 = s3;
+        return dfs(M, N);
+    }
+};
+
+
+bool isInterleave2(string s1, string s2, string s3) {
     const int M = s1.size(), N = s2.size();
     if (M + N != s3.size()) {
         return false;
