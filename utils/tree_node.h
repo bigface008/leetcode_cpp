@@ -25,6 +25,11 @@ struct TreeNode {
     int childCount() const;
 };
 
+//template <>
+//struct fmt::formatter<TreeNode *> : formatter<string_view> {
+//    auto format(TreeNode n, format_context &ctx) const -> decltype(ctx.out());
+//};
+
 template <>
 struct fmt::formatter<TreeNode> : formatter<string_view> {
     auto format(TreeNode n, format_context &ctx) const -> decltype(ctx.out());

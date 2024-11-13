@@ -168,25 +168,34 @@ private:
 //     vector<vector<bitset<9>>> cells;
 // };
 
-int main() {
-    bitset<8> foo("10011011");
-    foo[0]; // 1
-    foo[1]; // 0
-    foo[2]; // 0
-    foo.count(); // 5 （count函数用来求bitset中1的位数，foo中共有５个１
-    foo.size(); // 8 （size函数用来求bitset的大小，一共有８位
-    foo.test(0); // true （test函数用来查下标处的元素是０还是１，并返回false或true，此处foo[0]为１，返回true
-    foo.test(2); // false （同理，foo[2]为０，返回false
-    foo.any(); // true （any函数检查bitset中是否有１
-    foo.none(); // false （none函数检查bitset中是否没有１
-    foo.all(); // false （all函数检查bitset中是全部为１
-    foo.flip(2); // 10011111 （flip函数传参数时，用于将参数位取反，本行代码将foo下标２处"反转"，即０变１，１变０
-    foo.flip(); // 01100000 （flip函数不指定参数时，将bitset每一位全部取反
-    foo.set(); // 11111111 （set函数不指定参数时，将bitset的每一位全部置为１
-    foo.set(3, 0); // 11110111 （set函数指定两位参数时，将第一参数位的元素置为第二参数的值，本行对foo的操作相当于foo[3]=0
-    foo.set(3); // 11111111 （set函数只有一个参数时，将参数下标处置为１
-    foo.reset(4); // 11101111 （reset函数传一个参数时将参数下标处置为０
-    foo.reset(); // 00000000 （reset函数不传参数时将bitset的每一位全部置为０
+class Object {
+public:
+    int a;
+    string b;
+    Object(int _a, const char *_b) : a(_a), b(_b) {}
 
-    string s = foo.to_string(); // 将bitset转换成string类型
+//    bool operator<(const Object &o2) const {
+//        return a < o2.a;
+//    }
 };
+
+bool cmp(const Object &o1, const Object &o2) {
+    return o1.a < o2.a;
+}
+
+auto format_as(const Object &obj) {
+    return fmt::format("[a:{}, b:{}]", obj.a, obj.b);
+}
+
+int main() {
+    vector<Object> vec;
+    vec.emplace_back(31, "31");
+    vec.emplace_back(3, "3");
+    vec.emplace_back(-1, "-1");
+    vec.emplace_back(9, "9");
+    vec.emplace_back(80, "80");
+    vec.emplace_back(5, "5");
+    fmt::println("{}", vec);
+    std::sort(vec.begin(), vec.end());
+    fmt::println("{}", vec);
+}

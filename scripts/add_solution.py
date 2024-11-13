@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Not in use!
 
 import os.path
@@ -6,6 +7,7 @@ import sys
 
 SOLUTION_PREFIX = 'add_executable'
 LEETCODE_WEB_PREIX = 'https://leetcode.com/problems/'
+LEETCODE_CN_WEB_PREIX = 'https://leetcode.cn/problems/'
 
 cpp_template = """//
 // {problem_url}
@@ -18,7 +20,7 @@ using namespace std;
 class Solution {{
 public:
     {func_body}
-}}
+}};
 
 int main() {{
     auto f = []({param_list}) {{
@@ -26,7 +28,7 @@ int main() {{
         leetcode_assert(output == expect, "{problem_name} {param_format} expect={{}} output={{}}", {param_arg}, expect, output);
     }};
     f();
-}};
+}}
 """
 
 
@@ -80,6 +82,8 @@ class LeetCodeSolution(object):
 
 def new_solution(url: str) -> LeetCodeSolution:
     name_start = len(LEETCODE_WEB_PREIX)
+    if url.startswith(LEETCODE_CN_WEB_PREIX):
+        name_start = len(LEETCODE_CN_WEB_PREIX)
     name_end = url.find('/', name_start)
     if name_end == -1:
         name_end = len(url)
@@ -142,7 +146,7 @@ def write_new_solution(sol: LeetCodeSolution):
 
 def add_solution(url: str):
     print('Adding new LeetCode solution......')
-    if not url.startswith(LEETCODE_WEB_PREIX):
+    if not url.startswith(LEETCODE_WEB_PREIX) and not url.startswith(LEETCODE_CN_WEB_PREIX):
         print('Wrong url!')
         exit(-1)
     # curr_soltions = get_curr_solutions()

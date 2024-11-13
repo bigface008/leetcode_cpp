@@ -40,6 +40,10 @@ void breadthFirstSearch(TreeNode *root) {
     }
 }
 
+//auto fmt::formatter<TreeNode *>::format(TreeNode n, format_context& ctx) const -> decltype(ctx.out()) {
+//    return format(*n, )
+//}
+
 auto fmt::formatter<TreeNode>::format(TreeNode n, format_context& ctx) const -> decltype(ctx.out()) {
     vector<int> vec;
     vector<TreeNode *> nodes{&n};
