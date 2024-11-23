@@ -6,6 +6,74 @@
 
 using namespace std;
 
+class Solution {
+public:
+    vector<int> shortestDistanceAfterQueries(int n, vector<vector<int>> &queries) {
+        const int NQ = queries.size();
+        vector<int> ans(NQ);
+        vector<vector<int>> rgraph(n, vector<int>());
+        for (int i = 1; i < n; i++) {
+            rgraph[i].push_back(i - 1);
+        }
+        vector<int> memo(n);
+        iota(memo.begin(), memo.end(), 0);
+        for (int q = 0; q < NQ; q++) {
+            int u = queries[q][0], v = queries[q][1];
+            rgraph[v].push_back(u);
+            for (int i = v; i < n; i++) {
+                if (i <= 1) {
+                    memo[i] = i;
+                }
+                int res = i;
+                for (int child : rgraph[i]) {
+                    res = min(res, 1 + memo[child]);
+                }
+                memo[i] = res;
+            }
+            ans[q] = memo[n - 1];
+        }
+        return ans;
+    }
+};
+
+class Solution2 {
+public:
+    vector<int> shortestDistanceAfterQueries(int n, vector<vector<int>>& queries) {
+        const int NQ = queries.size();
+        vector<int> ans(NQ);
+        vector<vector<int>> graph(n, vector<int>());
+        for (int i = 0; i < n - 1; i++) {
+            graph[i].push_back(i + 1);
+        }
+        for (int q = 0; q < NQ; q++) {
+            int u = queries[q][0], v = queries[q][1];
+            graph[u].push_back(v);
+
+            vector<int> dist(n, INT_MAX);
+            priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> minHeap;
+            minHeap.emplace(0, 0);
+            while (!minHeap.empty()) {
+//                auto [nodeDist, nodeIdx] = minHeap.top();
+                int nodeDist = minHeap.top().first;
+                int nodeIdx = minHeap.top().second;
+                minHeap.pop();
+                if (nodeDist > dist[nodeIdx]) {
+                    continue;
+                }
+                for (int child : graph[nodeIdx]) {
+                    int newDist = nodeDist + 1;
+                    if (newDist < dist[child]) {
+                        dist[child] = newDist;
+                        minHeap.emplace(newDist, child);
+                    }
+                }
+            }
+            ans[q] = dist[n - 1];
+        }
+        return ans;
+    }
+};
+
 vector<int> shortestDistanceAfterQueries(int n, vector<vector<int>> &queries) {
     vector<vector<int>> from(n, vector<int>());
     vector<int> dp(n, 0);
@@ -60,7 +128,7 @@ vector<int> shortestDistanceAfterQueries2(int n, vector<vector<int>> &queries) {
 
 int main() {
     auto f = [](int n, vector<vector<int>> &&queries, vector<int> &&expect) {
-        auto output = shortestDistanceAfterQueries(n, queries);
+        auto output = Solution().shortestDistanceAfterQueries(n, queries);
         leetcode_assert(output == expect,
                         "shortest_distance_after_road_addition_queries_i n={} queries={} expect={} output={}", n,
                         queries, expect, output);

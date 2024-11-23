@@ -2,14 +2,14 @@
 # Not in use!
 
 import os.path
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Set
 import sys
 
 SOLUTION_PREFIX = 'add_executable'
 LEETCODE_WEB_PREIX = 'https://leetcode.com/problems/'
 LEETCODE_CN_WEB_PREIX = 'https://leetcode.cn/problems/'
 
-cpp_template = """//
+cpp_template_v2 = """//
 // {problem_url}
 //
 
@@ -17,10 +17,7 @@ cpp_template = """//
 
 using namespace std;
 
-class Solution {{
-public:
-    {func_body}
-}};
+{class_content}
 
 int main() {{
     auto f = []({param_list}) {{
@@ -31,56 +28,80 @@ int main() {{
 }}
 """
 
+class LeetCodeFuncDef:
+    def __init__(self, func_line: str):
+        self.name = self.__get_func_name(func_line)
+        self.return_type = self.__get_func_return_type(func_line)
+        self.args: List[Tuple[str, str]] = self.__get_func_params(func_line)
+        print(f'name={self.name} return_type={self.return_type}')
 
-class LeetCodeSolution(object):
-    def __init__(self, name: str, url: str, deps: List[str], func_lines: List[str]):
-        self.name = name
+    def __get_func_name(self, line: str) -> str:
+        fn_end = line.find('(')
+        fn_start = line.rfind(' ', 0, fn_end)
+        return line[fn_start + 1:fn_end]
+
+    def __get_func_return_type(self, line: str) -> str:
+        fn_end = line.find('(')
+        fn_start = line.rfind(' ', 0, fn_end)
+        return line[:fn_start].strip()
+
+    def __get_func_params(self, line: str) -> List[Tuple[str, str]]:
+        fn_end = line.find('(')
+        f_end = line.find(')')
+        params = line[fn_end + 1:f_end].split(', ')
+        res: List[Tuple[str, str]] = []
+        for param in params:
+            tp, pn = param.split()
+            if tp.endswith('&'):
+                tp += '&'
+            res.append((tp, pn))
+        return res
+
+    def gen_test_func_param_list(self) -> str:
+        params = self.args.copy()
+        params.append((self.return_type, 'expect'))
+        return ', '.join(f'{tp} {pn}' for tp, pn in params)
+
+    def gen_func_call(self) -> str:
+        arg_str = ', '.join(pn for tp, pn in self.args)
+        return f'{self.name}({arg_str})'
+
+    def gen_param_format(self) -> str:
+        return ' '.join((pn + '={}') for tp, pn in self.args)
+
+    def gen_params(self) -> str:
+        return ', '.join(pn for tp, pn in self.args)
+
+
+class LeetCodeSolutionV2:
+    def __init__(self, fname: str, url: str, class_lines: List[str]):
+        self.fname = fname
         self.url = url
-        self.deps = deps
-        self.func_lines = [line.strip() for line in func_lines]
-        self.cpp_str = self.__gen_cpp_file()
-
-    def __gen_cpp_file(self) -> str:
-        line1 = self.func_lines[0]
-        open_parenthesis_i = line1.find('(')
-        close_parenthesis_i = line1.rfind(')')
-        space_i = line1.find(' ')
-        func_name = line1[space_i + 1:open_parenthesis_i]
-        return_type = line1[:space_i]
-        params_str = line1[open_parenthesis_i + 1: close_parenthesis_i]
-        param_pair_strs = [ps.split(' ') for ps in params_str.split(', ')]
-        param_names = [pair[1] for pair in param_pair_strs]
-        param_converted_types = [self.__convert_type(pair[0]) + pair[1] for pair in param_pair_strs]
-
-        param_list_str = f'{", ".join(param_converted_types)}, {self.__convert_type(return_type)}expect'
-        func_call_str = f'{func_name}({", ".join(param_names)})'
-        container_cmp_str = ''
-        should_use_container = self.func_lines[0].startswith('vector<') or self.func_lines[0].startswith('map<')
-        if should_use_container:
-            container_cmp_str = '\n        bool same = equal(output.begin(), output.end(), expect.begin(), expect.end());'
-        param_format_str = ' '.join([pn + '={}' for pn in param_names])
-        param_arg_str = ', '.join(param_names)
-
-        return cpp_template.format(
+        self.class_lines = class_lines
+        self.func_def = LeetCodeFuncDef(class_lines[2].strip())
+        self.file_content = cpp_template_v2.format(
             problem_url=self.url,
-            func_body='\n'.join(self.func_lines),
-            param_list=param_list_str,
-            func_call=func_call_str,
-            problem_name=self.name,
-            param_format=param_format_str,
-            param_arg=param_arg_str,
+            class_content=''.join(self.class_lines),
+            param_list=self.func_def.gen_test_func_param_list(),
+            func_call=self.func_def.gen_func_call(),
+            problem_name=self.fname,
+            param_format=self.func_def.gen_param_format(),
+            param_arg=self.func_def.gen_params(),
         )
 
-    def __convert_type(self, type: str) -> str:
-        if type == 'string' or type.startswith('vector<') or type.startswith('map<'):
-            type = type.strip()
-            type = type.rstrip('&')
-            return type + ' &&'
+    def write_file(self):
+        cpp_fn = 'leetcode/' + self.fname + '.cpp'
+        with open('./CMakeLists.txt', 'a') as f:
+            f.write(f'{SOLUTION_PREFIX}({self.fname} {cpp_fn})\n')
+        if not os.path.exists(cpp_fn):
+            with open(cpp_fn, 'w') as f:
+                f.write(self.file_content)
+            print(f'File {cpp_fn} created.')
         else:
-            return type + ' '
+            print(f'File {cpp_fn} already existed.')
 
 
-def new_solution(url: str) -> LeetCodeSolution:
+def get_name_from_url(url: str) -> str:
     name_start = len(LEETCODE_WEB_PREIX)
     if url.startswith(LEETCODE_CN_WEB_PREIX):
         name_start = len(LEETCODE_CN_WEB_PREIX)
@@ -89,6 +110,11 @@ def new_solution(url: str) -> LeetCodeSolution:
         name_end = len(url)
     name = url[name_start: name_end]
     name = name.replace('-', '_')
+    return name
+
+
+def new_solution_v2(url: str) -> LeetCodeSolutionV2:
+    name = get_name_from_url(url)
     dep = name + '.cpp'
     print(f'  sol: {name}\n  url: {url}\n  file: {dep}')
     print('Is the name correct? [y/N]')
@@ -96,11 +122,15 @@ def new_solution(url: str) -> LeetCodeSolution:
     if op == 'N':
         print('Terminated.')
         exit(-1)
-    print('Input the function body.')
-    func_lines = sys.stdin.readlines()
-    solution = LeetCodeSolution(name, url, [dep], func_lines)
+    if name in read_solution_names():
+        print(f'Ops! You have already created solution {name}. Aborting.')
+        exit(-1)
+
+    print('Input the class.')
+    class_lines = sys.stdin.readlines()
+    solution = LeetCodeSolutionV2(name, url, class_lines)
     print('Will generate this file.')
-    print(solution.cpp_str)
+    print(solution.file_content)
     print('Is the file content correct? [y/N]')
     op = input()
     if op == 'N':
@@ -109,39 +139,41 @@ def new_solution(url: str) -> LeetCodeSolution:
     return solution
 
 
-def get_curr_solutions() -> Tuple[List, int, int]:
+# def get_curr_solutions() -> Tuple[List, int, int]:
+#     print('Reading CMakeLists.txt!')
+#     solutions = []
+#     prefix_len = len(SOLUTION_PREFIX)
+#     start_line = -1
+#     end_line = -1
+#     with open('../CMakeLists.txt') as cmake_file:
+#         lines = cmake_file.readlines()
+#         for i, line in enumerate(lines):
+#             if line.startswith(SOLUTION_PREFIX):
+#                 if start_line == -1:
+#                     start_line = i
+#                 line_size = len(line)
+#                 space_index = line.index(' ')
+#                 close_brace_index = line.index(')')
+#                 solution_name = line[prefix_len + 1: space_index]
+#                 dep = line[space_index + 1: close_brace_index]
+#                 solutions.append(LeetCodeSolution(solution_name, [dep]))
+#     print(f'Currently you have made {len(solutions)} solutions!')
+#     end_line = start_line + len(solutions)
+#     return solutions, start_line, end_line
+
+def read_solution_names() -> Set[str]:
     print('Reading CMakeLists.txt!')
-    solutions = []
     prefix_len = len(SOLUTION_PREFIX)
-    start_line = -1
-    end_line = -1
-    with open('../CMakeLists.txt') as cmake_file:
+    solutions = set()
+    with open('CMakeLists.txt') as cmake_file:
         lines = cmake_file.readlines()
         for i, line in enumerate(lines):
             if line.startswith(SOLUTION_PREFIX):
-                if start_line == -1:
-                    start_line = i
-                line_size = len(line)
                 space_index = line.index(' ')
-                close_brace_index = line.index(')')
                 solution_name = line[prefix_len + 1: space_index]
-                dep = line[space_index + 1: close_brace_index]
-                solutions.append(LeetCodeSolution(solution_name, [dep]))
+                solutions.add(solution_name)
     print(f'Currently you have made {len(solutions)} solutions!')
-    end_line = start_line + len(solutions)
-    return solutions, start_line, end_line
-
-
-def write_new_solution(sol: LeetCodeSolution):
-    cpp_fn = 'leetcode/' + sol.deps[0]
-    with open('./CMakeLists.txt', 'a') as f:
-        f.write(f'{SOLUTION_PREFIX}({sol.name} {cpp_fn})\n')
-    if not os.path.exists(sol.deps[0]):
-        with open(cpp_fn, 'w') as f:
-            f.write(sol.cpp_str)
-        print(f'File {cpp_fn} created.')
-    else:
-        print(f'File {cpp_fn} already existed.')
+    return solutions
 
 
 def add_solution(url: str):
@@ -150,8 +182,8 @@ def add_solution(url: str):
         print('Wrong url!')
         exit(-1)
     # curr_soltions = get_curr_solutions()
-    sol = new_solution(url)
-    write_new_solution(sol)
+    sol = new_solution_v2(url)
+    sol.write_file()
 
 
 if __name__ == '__main__':

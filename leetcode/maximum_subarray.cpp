@@ -6,6 +6,24 @@
 
 using namespace std;
 
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        const int N = nums.size();
+        int dp = nums[0];
+        int ans = nums[0];
+        for (int i = 1; i < N; i++) {
+            if (dp >= 0) {
+                dp += nums[i];
+            } else {
+                dp = nums[i];
+            }
+            ans = max(ans, dp);
+        }
+        return ans;
+    }
+};
+
 // 这是一道比较典型的题，有多种DP解法
 
 // 这种方法把dp[i]定义为以i结尾的数组中和的最大值。所以你需要额外一个整型值来记录全局最大值。

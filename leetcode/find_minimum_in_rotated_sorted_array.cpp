@@ -2,9 +2,14 @@
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 //
 
+#include <vector>
 #include "leetcode_utils.hpp"
 
 using namespace std;
+
+int doSomething(vector<int> &vec, int p, vector<int> &other) {
+
+}
 
 int findMin(vector<int> &nums) {
     int start = 0, end = nums.size() - 1;

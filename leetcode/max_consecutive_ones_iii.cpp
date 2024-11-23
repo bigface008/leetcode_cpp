@@ -6,6 +6,30 @@
 
 using namespace std;
 
+class Solution {
+public:
+    int longestOnes(vector<int>& nums, int k) {
+        const int N = nums.size();
+        int left = 0, right = 0;
+        int zeroCnt = 0;
+        int ans = 0;
+        for (; right < N; right++) {
+            int x = nums[right];
+            if (x == 0) {
+                zeroCnt++;
+            }
+            while (zeroCnt > k && left <= right) {
+                if (nums[left] == 0) {
+                    zeroCnt--;
+                }
+                left++;
+            }
+            ans = max(ans, right - left + 1);
+        }
+        return ans;
+    }
+};
+
 int longestOnes(vector<int> &nums, int k) {
     int start = 0, end = 0, max_cnt = 0, cnt = 0, curr_k = k;
     for (; start < nums.size(); start++) {
