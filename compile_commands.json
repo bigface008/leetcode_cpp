@@ -1,0 +1,878 @@
+[
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/utils.dir/utils/list_node.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/utils/list_node.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/utils/list_node.cpp",
+  "output": "CMakeFiles/utils.dir/utils/list_node.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/utils.dir/utils/tree_node.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/utils/tree_node.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/utils/tree_node.cpp",
+  "output": "CMakeFiles/utils.dir/utils/tree_node.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/utils.dir/utils/leetcode_utils.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/utils/leetcode_utils.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/utils/leetcode_utils.cpp",
+  "output": "CMakeFiles/utils.dir/utils/leetcode_utils.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_substr.dir/leetcode/longest_substr.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_substr.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_substr.cpp",
+  "output": "CMakeFiles/longest_substr.dir/leetcode/longest_substr.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/add_binary.dir/leetcode/add_binary.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_binary.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_binary.cpp",
+  "output": "CMakeFiles/add_binary.dir/leetcode/add_binary.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/bytedance.dir/leetcode/bytedance.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/bytedance.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/bytedance.cpp",
+  "output": "CMakeFiles/bytedance.dir/leetcode/bytedance.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/two_sum.dir/leetcode/two_sum.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/two_sum.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/two_sum.cpp",
+  "output": "CMakeFiles/two_sum.dir/leetcode/two_sum.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/add_two_numbers.dir/leetcode/add_two_numbers.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_two_numbers.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_two_numbers.cpp",
+  "output": "CMakeFiles/add_two_numbers.dir/leetcode/add_two_numbers.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/kth_largest.dir/leetcode/kth_largest.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/kth_largest.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/kth_largest.cpp",
+  "output": "CMakeFiles/kth_largest.dir/leetcode/kth_largest.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/letter_combinations.dir/leetcode/letter_combinations.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/letter_combinations.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/letter_combinations.cpp",
+  "output": "CMakeFiles/letter_combinations.dir/leetcode/letter_combinations.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/combinations.dir/leetcode/combinations.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/combinations.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/combinations.cpp",
+  "output": "CMakeFiles/combinations.dir/leetcode/combinations.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/replace_brace.dir/leetcode/replace_brace.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/replace_brace.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/replace_brace.cpp",
+  "output": "CMakeFiles/replace_brace.dir/leetcode/replace_brace.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/permutations.dir/leetcode/permutations.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/permutations.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/permutations.cpp",
+  "output": "CMakeFiles/permutations.dir/leetcode/permutations.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/combination_sum.dir/leetcode/combination_sum.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/combination_sum.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/combination_sum.cpp",
+  "output": "CMakeFiles/combination_sum.dir/leetcode/combination_sum.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/generate_parentheses.dir/leetcode/generate_parentheses.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/generate_parentheses.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/generate_parentheses.cpp",
+  "output": "CMakeFiles/generate_parentheses.dir/leetcode/generate_parentheses.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/word_search.dir/leetcode/word_search.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_search.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_search.cpp",
+  "output": "CMakeFiles/word_search.dir/leetcode/word_search.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/n_queens_ii.dir/leetcode/n_queens_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/n_queens_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/n_queens_ii.cpp",
+  "output": "CMakeFiles/n_queens_ii.dir/leetcode/n_queens_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/tencent.dir/leetcode/tencent.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/tencent.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/tencent.cpp",
+  "output": "CMakeFiles/tencent.dir/leetcode/tencent.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/powx_n.dir/leetcode/powx_n.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/powx_n.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/powx_n.cpp",
+  "output": "CMakeFiles/powx_n.dir/leetcode/powx_n.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/max_points_on_a_line.dir/leetcode/max_points_on_a_line.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_points_on_a_line.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_points_on_a_line.cpp",
+  "output": "CMakeFiles/max_points_on_a_line.dir/leetcode/max_points_on_a_line.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_k_pairs_with_smallest_sums.dir/leetcode/find_k_pairs_with_smallest_sums.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_k_pairs_with_smallest_sums.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_k_pairs_with_smallest_sums.cpp",
+  "output": "CMakeFiles/find_k_pairs_with_smallest_sums.dir/leetcode/find_k_pairs_with_smallest_sums.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/trie_prefix_tree.dir/leetcode/trie_prefix_tree.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/trie_prefix_tree.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/trie_prefix_tree.cpp",
+  "output": "CMakeFiles/trie_prefix_tree.dir/leetcode/trie_prefix_tree.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/design_add_and_search_words_data_structure.dir/leetcode/design_add_and_search_words_data_structure.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_add_and_search_words_data_structure.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_add_and_search_words_data_structure.cpp",
+  "output": "CMakeFiles/design_add_and_search_words_data_structure.dir/leetcode/design_add_and_search_words_data_structure.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/word_search_ii.dir/leetcode/word_search_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_search_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_search_ii.cpp",
+  "output": "CMakeFiles/word_search_ii.dir/leetcode/word_search_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/number_of_1_bits.dir/leetcode/number_of_1_bits.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/number_of_1_bits.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/number_of_1_bits.cpp",
+  "output": "CMakeFiles/number_of_1_bits.dir/leetcode/number_of_1_bits.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/single_number.dir/leetcode/single_number.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_number.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_number.cpp",
+  "output": "CMakeFiles/single_number.dir/leetcode/single_number.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/single_number_ii.dir/leetcode/single_number_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_number_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_number_ii.cpp",
+  "output": "CMakeFiles/single_number_ii.dir/leetcode/single_number_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/bitwise_and_of_numbers_range.dir/leetcode/bitwise_and_of_numbers_range.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/bitwise_and_of_numbers_range.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/bitwise_and_of_numbers_range.cpp",
+  "output": "CMakeFiles/bitwise_and_of_numbers_range.dir/leetcode/bitwise_and_of_numbers_range.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/search_insert_position.dir/leetcode/search_insert_position.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_insert_position.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_insert_position.cpp",
+  "output": "CMakeFiles/search_insert_position.dir/leetcode/search_insert_position.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/search_a_2d_matrix.dir/leetcode/search_a_2d_matrix.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_a_2d_matrix.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_a_2d_matrix.cpp",
+  "output": "CMakeFiles/search_a_2d_matrix.dir/leetcode/search_a_2d_matrix.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_peak_element.dir/leetcode/find_peak_element.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_peak_element.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_peak_element.cpp",
+  "output": "CMakeFiles/find_peak_element.dir/leetcode/find_peak_element.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/search_in_rotated_sorted_array.dir/leetcode/search_in_rotated_sorted_array.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_in_rotated_sorted_array.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_in_rotated_sorted_array.cpp",
+  "output": "CMakeFiles/search_in_rotated_sorted_array.dir/leetcode/search_in_rotated_sorted_array.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_first_and_last_position_of_element_in_sorted_array.dir/leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp",
+  "output": "CMakeFiles/find_first_and_last_position_of_element_in_sorted_array.dir/leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_minimum_in_rotated_sorted_array.dir/leetcode/find_minimum_in_rotated_sorted_array.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_minimum_in_rotated_sorted_array.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_minimum_in_rotated_sorted_array.cpp",
+  "output": "CMakeFiles/find_minimum_in_rotated_sorted_array.dir/leetcode/find_minimum_in_rotated_sorted_array.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/median_of_two_sorted_arrays.dir/leetcode/median_of_two_sorted_arrays.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/median_of_two_sorted_arrays.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/median_of_two_sorted_arrays.cpp",
+  "output": "CMakeFiles/median_of_two_sorted_arrays.dir/leetcode/median_of_two_sorted_arrays.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/triangle.dir/leetcode/triangle.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/triangle.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/triangle.cpp",
+  "output": "CMakeFiles/triangle.dir/leetcode/triangle.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_path_sum.dir/leetcode/minimum_path_sum.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_path_sum.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_path_sum.cpp",
+  "output": "CMakeFiles/minimum_path_sum.dir/leetcode/minimum_path_sum.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/unique_paths_ii.dir/leetcode/unique_paths_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/unique_paths_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/unique_paths_ii.cpp",
+  "output": "CMakeFiles/unique_paths_ii.dir/leetcode/unique_paths_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_palindromic_substring.dir/leetcode/longest_palindromic_substring.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_palindromic_substring.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_palindromic_substring.cpp",
+  "output": "CMakeFiles/longest_palindromic_substring.dir/leetcode/longest_palindromic_substring.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/interleaving_string.dir/leetcode/interleaving_string.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/interleaving_string.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/interleaving_string.cpp",
+  "output": "CMakeFiles/interleaving_string.dir/leetcode/interleaving_string.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/edit_distance.dir/leetcode/edit_distance.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/edit_distance.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/edit_distance.cpp",
+  "output": "CMakeFiles/edit_distance.dir/leetcode/edit_distance.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximal_square.dir/leetcode/maximal_square.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximal_square.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximal_square.cpp",
+  "output": "CMakeFiles/maximal_square.dir/leetcode/maximal_square.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/ipo.dir/leetcode/ipo.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/ipo.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/ipo.cpp",
+  "output": "CMakeFiles/ipo.dir/leetcode/ipo.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/snakes_and_ladders.dir/leetcode/snakes_and_ladders.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/snakes_and_ladders.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/snakes_and_ladders.cpp",
+  "output": "CMakeFiles/snakes_and_ladders.dir/leetcode/snakes_and_ladders.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_genetic_mutation.dir/leetcode/minimum_genetic_mutation.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_genetic_mutation.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_genetic_mutation.cpp",
+  "output": "CMakeFiles/minimum_genetic_mutation.dir/leetcode/minimum_genetic_mutation.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/word_ladder.dir/leetcode/word_ladder.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_ladder.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/word_ladder.cpp",
+  "output": "CMakeFiles/word_ladder.dir/leetcode/word_ladder.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_median_from_data_stream.dir/leetcode/find_median_from_data_stream.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_median_from_data_stream.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_median_from_data_stream.cpp",
+  "output": "CMakeFiles/find_median_from_data_stream.dir/leetcode/find_median_from_data_stream.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_subarray.dir/leetcode/maximum_subarray.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_subarray.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_subarray.cpp",
+  "output": "CMakeFiles/maximum_subarray.dir/leetcode/maximum_subarray.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_sum_circular_subarray.dir/leetcode/maximum_sum_circular_subarray.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_sum_circular_subarray.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_sum_circular_subarray.cpp",
+  "output": "CMakeFiles/maximum_sum_circular_subarray.dir/leetcode/maximum_sum_circular_subarray.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/best_time_to_buy_and_sell_stock_iii.dir/leetcode/best_time_to_buy_and_sell_stock_iii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_iii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_iii.cpp",
+  "output": "CMakeFiles/best_time_to_buy_and_sell_stock_iii.dir/leetcode/best_time_to_buy_and_sell_stock_iii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/best_time_to_buy_and_sell_stock_iv.dir/leetcode/best_time_to_buy_and_sell_stock_iv.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_iv.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_iv.cpp",
+  "output": "CMakeFiles/best_time_to_buy_and_sell_stock_iv.dir/leetcode/best_time_to_buy_and_sell_stock_iv.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/merge_strings_alternately.dir/leetcode/merge_strings_alternately.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/merge_strings_alternately.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/merge_strings_alternately.cpp",
+  "output": "CMakeFiles/merge_strings_alternately.dir/leetcode/merge_strings_alternately.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/reverse_words_in_a_string.dir/leetcode/reverse_words_in_a_string.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/reverse_words_in_a_string.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/reverse_words_in_a_string.cpp",
+  "output": "CMakeFiles/reverse_words_in_a_string.dir/leetcode/reverse_words_in_a_string.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/increasing_triplet_subsequence.dir/leetcode/increasing_triplet_subsequence.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/increasing_triplet_subsequence.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/increasing_triplet_subsequence.cpp",
+  "output": "CMakeFiles/increasing_triplet_subsequence.dir/leetcode/increasing_triplet_subsequence.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/string_compression.dir/leetcode/string_compression.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/string_compression.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/string_compression.cpp",
+  "output": "CMakeFiles/string_compression.dir/leetcode/string_compression.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/max_number_of_k_sum_pairs.dir/leetcode/max_number_of_k_sum_pairs.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_number_of_k_sum_pairs.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_number_of_k_sum_pairs.cpp",
+  "output": "CMakeFiles/max_number_of_k_sum_pairs.dir/leetcode/max_number_of_k_sum_pairs.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_number_of_vowels_in_a_substring_of_given_length.dir/leetcode/maximum_number_of_vowels_in_a_substring_of_given_length.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_number_of_vowels_in_a_substring_of_given_length.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_number_of_vowels_in_a_substring_of_given_length.cpp",
+  "output": "CMakeFiles/maximum_number_of_vowels_in_a_substring_of_given_length.dir/leetcode/maximum_number_of_vowels_in_a_substring_of_given_length.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/max_consecutive_ones_iii.dir/leetcode/max_consecutive_ones_iii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_consecutive_ones_iii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/max_consecutive_ones_iii.cpp",
+  "output": "CMakeFiles/max_consecutive_ones_iii.dir/leetcode/max_consecutive_ones_iii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_subarray_of_1s_after_deleting_one_element.dir/leetcode/longest_subarray_of_1s_after_deleting_one_element.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_subarray_of_1s_after_deleting_one_element.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_subarray_of_1s_after_deleting_one_element.cpp",
+  "output": "CMakeFiles/longest_subarray_of_1s_after_deleting_one_element.dir/leetcode/longest_subarray_of_1s_after_deleting_one_element.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/determine_if_two_strings_are_close.dir/leetcode/determine_if_two_strings_are_close.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/determine_if_two_strings_are_close.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/determine_if_two_strings_are_close.cpp",
+  "output": "CMakeFiles/determine_if_two_strings_are_close.dir/leetcode/determine_if_two_strings_are_close.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/equal_row_and_column_pairs.dir/leetcode/equal_row_and_column_pairs.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/equal_row_and_column_pairs.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/equal_row_and_column_pairs.cpp",
+  "output": "CMakeFiles/equal_row_and_column_pairs.dir/leetcode/equal_row_and_column_pairs.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/removing_stars_from_a_string.dir/leetcode/removing_stars_from_a_string.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/removing_stars_from_a_string.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/removing_stars_from_a_string.cpp",
+  "output": "CMakeFiles/removing_stars_from_a_string.dir/leetcode/removing_stars_from_a_string.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/asteroid_collision.dir/leetcode/asteroid_collision.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/asteroid_collision.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/asteroid_collision.cpp",
+  "output": "CMakeFiles/asteroid_collision.dir/leetcode/asteroid_collision.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/decode_string.dir/leetcode/decode_string.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/decode_string.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/decode_string.cpp",
+  "output": "CMakeFiles/decode_string.dir/leetcode/decode_string.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/dota2_senate.dir/leetcode/dota2_senate.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/dota2_senate.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/dota2_senate.cpp",
+  "output": "CMakeFiles/dota2_senate.dir/leetcode/dota2_senate.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/delete_the_middle_node_of_a_linked_list.dir/leetcode/delete_the_middle_node_of_a_linked_list.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/delete_the_middle_node_of_a_linked_list.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/delete_the_middle_node_of_a_linked_list.cpp",
+  "output": "CMakeFiles/delete_the_middle_node_of_a_linked_list.dir/leetcode/delete_the_middle_node_of_a_linked_list.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/odd_even_linked_list.dir/leetcode/odd_even_linked_list.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/odd_even_linked_list.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/odd_even_linked_list.cpp",
+  "output": "CMakeFiles/odd_even_linked_list.dir/leetcode/odd_even_linked_list.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_twin_sum_of_a_linked_list.dir/leetcode/maximum_twin_sum_of_a_linked_list.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_twin_sum_of_a_linked_list.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_twin_sum_of_a_linked_list.cpp",
+  "output": "CMakeFiles/maximum_twin_sum_of_a_linked_list.dir/leetcode/maximum_twin_sum_of_a_linked_list.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_good_nodes_in_binary_tree.dir/leetcode/count_good_nodes_in_binary_tree.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_good_nodes_in_binary_tree.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_good_nodes_in_binary_tree.cpp",
+  "output": "CMakeFiles/count_good_nodes_in_binary_tree.dir/leetcode/count_good_nodes_in_binary_tree.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/path_sum_iii.dir/leetcode/path_sum_iii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/path_sum_iii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/path_sum_iii.cpp",
+  "output": "CMakeFiles/path_sum_iii.dir/leetcode/path_sum_iii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/path_sum_ii.dir/leetcode/path_sum_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/path_sum_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/path_sum_ii.cpp",
+  "output": "CMakeFiles/path_sum_ii.dir/leetcode/path_sum_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_zigzag_path_in_a_binary_tree.dir/leetcode/longest_zigzag_path_in_a_binary_tree.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_zigzag_path_in_a_binary_tree.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_zigzag_path_in_a_binary_tree.cpp",
+  "output": "CMakeFiles/longest_zigzag_path_in_a_binary_tree.dir/leetcode/longest_zigzag_path_in_a_binary_tree.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/lowest_common_ancestor_of_a_binary_tree.dir/leetcode/lowest_common_ancestor_of_a_binary_tree.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/lowest_common_ancestor_of_a_binary_tree.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/lowest_common_ancestor_of_a_binary_tree.cpp",
+  "output": "CMakeFiles/lowest_common_ancestor_of_a_binary_tree.dir/leetcode/lowest_common_ancestor_of_a_binary_tree.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/binary_tree_right_side_view.dir/leetcode/binary_tree_right_side_view.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/binary_tree_right_side_view.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/binary_tree_right_side_view.cpp",
+  "output": "CMakeFiles/binary_tree_right_side_view.dir/leetcode/binary_tree_right_side_view.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_level_sum_of_a_binary_tree.dir/leetcode/maximum_level_sum_of_a_binary_tree.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_level_sum_of_a_binary_tree.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_level_sum_of_a_binary_tree.cpp",
+  "output": "CMakeFiles/maximum_level_sum_of_a_binary_tree.dir/leetcode/maximum_level_sum_of_a_binary_tree.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/delete_node_in_a_bst.dir/leetcode/delete_node_in_a_bst.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/delete_node_in_a_bst.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/delete_node_in_a_bst.cpp",
+  "output": "CMakeFiles/delete_node_in_a_bst.dir/leetcode/delete_node_in_a_bst.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/keys_and_rooms.dir/leetcode/keys_and_rooms.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/keys_and_rooms.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/keys_and_rooms.cpp",
+  "output": "CMakeFiles/keys_and_rooms.dir/leetcode/keys_and_rooms.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/number_of_provinces.dir/leetcode/number_of_provinces.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/number_of_provinces.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/number_of_provinces.cpp",
+  "output": "CMakeFiles/number_of_provinces.dir/leetcode/number_of_provinces.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/reorder_routes_to_make_all_paths_lead_to_the_city_zero.dir/leetcode/reorder_routes_to_make_all_paths_lead_to_the_city_zero.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/reorder_routes_to_make_all_paths_lead_to_the_city_zero.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/reorder_routes_to_make_all_paths_lead_to_the_city_zero.cpp",
+  "output": "CMakeFiles/reorder_routes_to_make_all_paths_lead_to_the_city_zero.dir/leetcode/reorder_routes_to_make_all_paths_lead_to_the_city_zero.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/dtl.dir/leetcode/dtl.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/dtl.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/dtl.cpp",
+  "output": "CMakeFiles/dtl.dir/leetcode/dtl.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/snowflake.dir/leetcode/snowflake.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/snowflake.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/snowflake.cpp",
+  "output": "CMakeFiles/snowflake.dir/leetcode/snowflake.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/sort.dir/algorithm/sort.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/algorithm/sort.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/algorithm/sort.cpp",
+  "output": "CMakeFiles/sort.dir/algorithm/sort.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/container.dir/algorithm/container.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/algorithm/container.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/algorithm/container.cpp",
+  "output": "CMakeFiles/container.dir/algorithm/container.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/graph.dir/algorithm/graph.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/algorithm/graph.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/algorithm/graph.cpp",
+  "output": "CMakeFiles/graph.dir/algorithm/graph.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/house_robber.dir/leetcode/house_robber.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/house_robber.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/house_robber.cpp",
+  "output": "CMakeFiles/house_robber.dir/leetcode/house_robber.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/domino_and_tromino_tiling.dir/leetcode/domino_and_tromino_tiling.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/domino_and_tromino_tiling.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/domino_and_tromino_tiling.cpp",
+  "output": "CMakeFiles/domino_and_tromino_tiling.dir/leetcode/domino_and_tromino_tiling.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/unique_paths.dir/leetcode/unique_paths.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/unique_paths.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/unique_paths.cpp",
+  "output": "CMakeFiles/unique_paths.dir/leetcode/unique_paths.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_common_subsequence.dir/leetcode/longest_common_subsequence.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_common_subsequence.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_common_subsequence.cpp",
+  "output": "CMakeFiles/longest_common_subsequence.dir/leetcode/longest_common_subsequence.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/best_time_to_buy_and_sell_stock_with_transaction_fee.dir/leetcode/best_time_to_buy_and_sell_stock_with_transaction_fee.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_with_transaction_fee.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/best_time_to_buy_and_sell_stock_with_transaction_fee.cpp",
+  "output": "CMakeFiles/best_time_to_buy_and_sell_stock_with_transaction_fee.dir/leetcode/best_time_to_buy_and_sell_stock_with_transaction_fee.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/huawei.dir/companies/huawei.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/companies/huawei.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/companies/huawei.cpp",
+  "output": "CMakeFiles/huawei.dir/companies/huawei.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/meituan.dir/companies/meituan.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/companies/meituan.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/companies/meituan.cpp",
+  "output": "CMakeFiles/meituan.dir/companies/meituan.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_flips_to_make_a_or_b_equal_to_c.dir/leetcode/minimum_flips_to_make_a_or_b_equal_to_c.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_flips_to_make_a_or_b_equal_to_c.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_flips_to_make_a_or_b_equal_to_c.cpp",
+  "output": "CMakeFiles/minimum_flips_to_make_a_or_b_equal_to_c.dir/leetcode/minimum_flips_to_make_a_or_b_equal_to_c.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/search_suggestions_system.dir/leetcode/search_suggestions_system.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_suggestions_system.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/search_suggestions_system.cpp",
+  "output": "CMakeFiles/search_suggestions_system.dir/leetcode/search_suggestions_system.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir/leetcode/minimum_number_of_arrows_to_burst_balloons.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_number_of_arrows_to_burst_balloons.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_number_of_arrows_to_burst_balloons.cpp",
+  "output": "CMakeFiles/minimum_number_of_arrows_to_burst_balloons.dir/leetcode/minimum_number_of_arrows_to_burst_balloons.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/non_overlapping_intervals.dir/leetcode/non_overlapping_intervals.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/non_overlapping_intervals.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/non_overlapping_intervals.cpp",
+  "output": "CMakeFiles/non_overlapping_intervals.dir/leetcode/non_overlapping_intervals.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/longest_increasing_subsequence.dir/leetcode/longest_increasing_subsequence.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_increasing_subsequence.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/longest_increasing_subsequence.cpp",
+  "output": "CMakeFiles/longest_increasing_subsequence.dir/leetcode/longest_increasing_subsequence.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/daily_temperatures.dir/leetcode/daily_temperatures.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/daily_temperatures.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/daily_temperatures.cpp",
+  "output": "CMakeFiles/daily_temperatures.dir/leetcode/daily_temperatures.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/online_stock_span.dir/leetcode/online_stock_span.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/online_stock_span.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/online_stock_span.cpp",
+  "output": "CMakeFiles/online_stock_span.dir/leetcode/online_stock_span.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/combination_sum_iii.dir/leetcode/combination_sum_iii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/combination_sum_iii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/combination_sum_iii.cpp",
+  "output": "CMakeFiles/combination_sum_iii.dir/leetcode/combination_sum_iii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/successful_pairs_of_spells_and_potions.dir/leetcode/successful_pairs_of_spells_and_potions.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/successful_pairs_of_spells_and_potions.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/successful_pairs_of_spells_and_potions.cpp",
+  "output": "CMakeFiles/successful_pairs_of_spells_and_potions.dir/leetcode/successful_pairs_of_spells_and_potions.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/koko_eating_bananas.dir/leetcode/koko_eating_bananas.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/koko_eating_bananas.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/koko_eating_bananas.cpp",
+  "output": "CMakeFiles/koko_eating_bananas.dir/leetcode/koko_eating_bananas.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/total_cost_to_hire_k_workers.dir/leetcode/total_cost_to_hire_k_workers.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/total_cost_to_hire_k_workers.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/total_cost_to_hire_k_workers.cpp",
+  "output": "CMakeFiles/total_cost_to_hire_k_workers.dir/leetcode/total_cost_to_hire_k_workers.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_subsequence_score.dir/leetcode/maximum_subsequence_score.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_subsequence_score.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_subsequence_score.cpp",
+  "output": "CMakeFiles/maximum_subsequence_score.dir/leetcode/maximum_subsequence_score.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/xiaoyong.dir/companies/xiaoyong.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/companies/xiaoyong.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/companies/xiaoyong.cpp",
+  "output": "CMakeFiles/xiaoyong.dir/companies/xiaoyong.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_if_path_exists_in_graph.dir/leetcode/find_if_path_exists_in_graph.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_if_path_exists_in_graph.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_if_path_exists_in_graph.cpp",
+  "output": "CMakeFiles/find_if_path_exists_in_graph.dir/leetcode/find_if_path_exists_in_graph.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/all_paths_from_source_to_target.dir/leetcode/all_paths_from_source_to_target.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/all_paths_from_source_to_target.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/all_paths_from_source_to_target.cpp",
+  "output": "CMakeFiles/all_paths_from_source_to_target.dir/leetcode/all_paths_from_source_to_target.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/shortest_distance_after_road_addition_queries_i.dir/leetcode/shortest_distance_after_road_addition_queries_i.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/shortest_distance_after_road_addition_queries_i.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/shortest_distance_after_road_addition_queries_i.cpp",
+  "output": "CMakeFiles/shortest_distance_after_road_addition_queries_i.dir/leetcode/shortest_distance_after_road_addition_queries_i.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/get_watched_videos_by_your_friends.dir/leetcode/get_watched_videos_by_your_friends.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/get_watched_videos_by_your_friends.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/get_watched_videos_by_your_friends.cpp",
+  "output": "CMakeFiles/get_watched_videos_by_your_friends.dir/leetcode/get_watched_videos_by_your_friends.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_the_maximum_number_of_marked_indices.dir/leetcode/find_the_maximum_number_of_marked_indices.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_the_maximum_number_of_marked_indices.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_the_maximum_number_of_marked_indices.cpp",
+  "output": "CMakeFiles/find_the_maximum_number_of_marked_indices.dir/leetcode/find_the_maximum_number_of_marked_indices.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_number_of_robots_within_budget.dir/leetcode/maximum_number_of_robots_within_budget.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_number_of_robots_within_budget.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_number_of_robots_within_budget.cpp",
+  "output": "CMakeFiles/maximum_number_of_robots_within_budget.dir/leetcode/maximum_number_of_robots_within_budget.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/libreoj_160.dir/companies/libreoj/libreoj_160.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/companies/libreoj/libreoj_160.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/companies/libreoj/libreoj_160.cpp",
+  "output": "CMakeFiles/libreoj_160.dir/companies/libreoj/libreoj_160.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/add_strings.dir/leetcode/add_strings.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_strings.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/add_strings.cpp",
+  "output": "CMakeFiles/add_strings.dir/leetcode/add_strings.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/design_circular_deque.dir/leetcode/design_circular_deque.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_circular_deque.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_circular_deque.cpp",
+  "output": "CMakeFiles/design_circular_deque.dir/leetcode/design_circular_deque.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/time_needed_to_buy_tickets.dir/leetcode/time_needed_to_buy_tickets.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/time_needed_to_buy_tickets.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/time_needed_to_buy_tickets.cpp",
+  "output": "CMakeFiles/time_needed_to_buy_tickets.dir/leetcode/time_needed_to_buy_tickets.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/sudoku_solver.dir/leetcode/sudoku_solver.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/sudoku_solver.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/sudoku_solver.cpp",
+  "output": "CMakeFiles/sudoku_solver.dir/leetcode/sudoku_solver.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_total_reward_using_operations_ii.dir/leetcode/maximum_total_reward_using_operations_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_total_reward_using_operations_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_total_reward_using_operations_ii.cpp",
+  "output": "CMakeFiles/maximum_total_reward_using_operations_ii.dir/leetcode/maximum_total_reward_using_operations_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/height_of_binary_tree_after_subtree_removal_queries.dir/leetcode/height_of_binary_tree_after_subtree_removal_queries.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/height_of_binary_tree_after_subtree_removal_queries.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/height_of_binary_tree_after_subtree_removal_queries.cpp",
+  "output": "CMakeFiles/height_of_binary_tree_after_subtree_removal_queries.dir/leetcode/height_of_binary_tree_after_subtree_removal_queries.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/redundant_connection.dir/leetcode/redundant_connection.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/redundant_connection.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/redundant_connection.cpp",
+  "output": "CMakeFiles/redundant_connection.dir/leetcode/redundant_connection.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/split_array_largest_sum.dir/leetcode/split_array_largest_sum.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/split_array_largest_sum.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/split_array_largest_sum.cpp",
+  "output": "CMakeFiles/split_array_largest_sum.dir/leetcode/split_array_largest_sum.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_square_submatrices_with_all_ones.dir/leetcode/count_square_submatrices_with_all_ones.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_square_submatrices_with_all_ones.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_square_submatrices_with_all_ones.cpp",
+  "output": "CMakeFiles/count_square_submatrices_with_all_ones.dir/leetcode/count_square_submatrices_with_all_ones.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/reverse_pairs.dir/leetcode/reverse_pairs.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/reverse_pairs.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/reverse_pairs.cpp",
+  "output": "CMakeFiles/reverse_pairs.dir/leetcode/reverse_pairs.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/shopping_offers.dir/leetcode/shopping_offers.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/shopping_offers.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/shopping_offers.cpp",
+  "output": "CMakeFiles/shopping_offers.dir/leetcode/shopping_offers.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/rotate_string.dir/leetcode/rotate_string.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/rotate_string.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/rotate_string.cpp",
+  "output": "CMakeFiles/rotate_string.dir/leetcode/rotate_string.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/sum_of_square_numbers.dir/leetcode/sum_of_square_numbers.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/sum_of_square_numbers.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/sum_of_square_numbers.cpp",
+  "output": "CMakeFiles/sum_of_square_numbers.dir/leetcode/sum_of_square_numbers.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/largest_combination_with_bitwise_and_greater_than_zero.dir/leetcode/largest_combination_with_bitwise_and_greater_than_zero.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/largest_combination_with_bitwise_and_greater_than_zero.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/largest_combination_with_bitwise_and_greater_than_zero.cpp",
+  "output": "CMakeFiles/largest_combination_with_bitwise_and_greater_than_zero.dir/leetcode/largest_combination_with_bitwise_and_greater_than_zero.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/check_if_the_rectangle_corner_is_reachable.dir/leetcode/check_if_the_rectangle_corner_is_reachable.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/check_if_the_rectangle_corner_is_reachable.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/check_if_the_rectangle_corner_is_reachable.cpp",
+  "output": "CMakeFiles/check_if_the_rectangle_corner_is_reachable.dir/leetcode/check_if_the_rectangle_corner_is_reachable.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_xor_for_each_query.dir/leetcode/maximum_xor_for_each_query.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_xor_for_each_query.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_xor_for_each_query.cpp",
+  "output": "CMakeFiles/maximum_xor_for_each_query.dir/leetcode/maximum_xor_for_each_query.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/design_neighbor_sum_service.dir/leetcode/design_neighbor_sum_service.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_neighbor_sum_service.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/design_neighbor_sum_service.cpp",
+  "output": "CMakeFiles/design_neighbor_sum_service.dir/leetcode/design_neighbor_sum_service.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_array_end.dir/leetcode/minimum_array_end.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_array_end.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_array_end.cpp",
+  "output": "CMakeFiles/minimum_array_end.dir/leetcode/minimum_array_end.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/single_element_in_a_sorted_array.dir/leetcode/single_element_in_a_sorted_array.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_element_in_a_sorted_array.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/single_element_in_a_sorted_array.cpp",
+  "output": "CMakeFiles/single_element_in_a_sorted_array.dir/leetcode/single_element_in_a_sorted_array.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/shortest_subarray_with_or_at_least_k_ii.dir/leetcode/shortest_subarray_with_or_at_least_k_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/shortest_subarray_with_or_at_least_k_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/shortest_subarray_with_or_at_least_k_ii.cpp",
+  "output": "CMakeFiles/shortest_subarray_with_or_at_least_k_ii.dir/leetcode/shortest_subarray_with_or_at_least_k_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_cost_to_cut_a_stick.dir/leetcode/minimum_cost_to_cut_a_stick.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_cost_to_cut_a_stick.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_cost_to_cut_a_stick.cpp",
+  "output": "CMakeFiles/minimum_cost_to_cut_a_stick.dir/leetcode/minimum_cost_to_cut_a_stick.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/prime_subtraction_operation.dir/leetcode/prime_subtraction_operation.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/prime_subtraction_operation.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/prime_subtraction_operation.cpp",
+  "output": "CMakeFiles/prime_subtraction_operation.dir/leetcode/prime_subtraction_operation.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_substrings_that_satisfy_k_constraint_i.dir/leetcode/count_substrings_that_satisfy_k_constraint_i.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_substrings_that_satisfy_k_constraint_i.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_substrings_that_satisfy_k_constraint_i.cpp",
+  "output": "CMakeFiles/count_substrings_that_satisfy_k_constraint_i.dir/leetcode/count_substrings_that_satisfy_k_constraint_i.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/most_beautiful_item_for_each_query.dir/leetcode/most_beautiful_item_for_each_query.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/most_beautiful_item_for_each_query.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/most_beautiful_item_for_each_query.cpp",
+  "output": "CMakeFiles/most_beautiful_item_for_each_query.dir/leetcode/most_beautiful_item_for_each_query.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_substrings_that_satisfy_k_constraint_ii.dir/leetcode/count_substrings_that_satisfy_k_constraint_ii.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_substrings_that_satisfy_k_constraint_ii.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_substrings_that_satisfy_k_constraint_ii.cpp",
+  "output": "CMakeFiles/count_substrings_that_satisfy_k_constraint_ii.dir/leetcode/count_substrings_that_satisfy_k_constraint_ii.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_the_number_of_fair_pairs.dir/leetcode/count_the_number_of_fair_pairs.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_the_number_of_fair_pairs.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_the_number_of_fair_pairs.cpp",
+  "output": "CMakeFiles/count_the_number_of_fair_pairs.dir/leetcode/count_the_number_of_fair_pairs.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/count_the_number_of_good_nodes.dir/leetcode/count_the_number_of_good_nodes.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_the_number_of_good_nodes.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/count_the_number_of_good_nodes.cpp",
+  "output": "CMakeFiles/count_the_number_of_good_nodes.dir/leetcode/count_the_number_of_good_nodes.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimized_maximum_of_products_distributed_to_any_store.dir/leetcode/minimized_maximum_of_products_distributed_to_any_store.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimized_maximum_of_products_distributed_to_any_store.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimized_maximum_of_products_distributed_to_any_store.cpp",
+  "output": "CMakeFiles/minimized_maximum_of_products_distributed_to_any_store.dir/leetcode/minimized_maximum_of_products_distributed_to_any_store.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/binary_search.dir/leetcode/binary_search.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/binary_search.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/binary_search.cpp",
+  "output": "CMakeFiles/binary_search.dir/leetcode/binary_search.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_smallest_letter_greater_than_target.dir/leetcode/find_smallest_letter_greater_than_target.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_smallest_letter_greater_than_target.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_smallest_letter_greater_than_target.cpp",
+  "output": "CMakeFiles/find_smallest_letter_greater_than_target.dir/leetcode/find_smallest_letter_greater_than_target.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/maximum_count_of_positive_integer_and_negative_integer.dir/leetcode/maximum_count_of_positive_integer_and_negative_integer.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_count_of_positive_integer_and_negative_integer.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/maximum_count_of_positive_integer_and_negative_integer.cpp",
+  "output": "CMakeFiles/maximum_count_of_positive_integer_and_negative_integer.dir/leetcode/maximum_count_of_positive_integer_and_negative_integer.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/find_the_distance_value_between_two_arrays.dir/leetcode/find_the_distance_value_between_two_arrays.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_the_distance_value_between_two_arrays.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/find_the_distance_value_between_two_arrays.cpp",
+  "output": "CMakeFiles/find_the_distance_value_between_two_arrays.dir/leetcode/find_the_distance_value_between_two_arrays.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++ -DFMT_HEADER_ONLY=1 -I/Users/wangzhehao/Projects/leetcode_cpp/./dependencies -I/Users/wangzhehao/Projects/leetcode_cpp/./utils -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -I/Users/wangzhehao/Projects/leetcode_cpp/utils -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/minimum_number_of_flips_to_make_binary_grid_palindromic_i.dir/leetcode/minimum_number_of_flips_to_make_binary_grid_palindromic_i.cpp.o -c /Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_number_of_flips_to_make_binary_grid_palindromic_i.cpp",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/leetcode/minimum_number_of_flips_to_make_binary_grid_palindromic_i.cpp",
+  "output": "CMakeFiles/minimum_number_of_flips_to_make_binary_grid_palindromic_i.dir/leetcode/minimum_number_of_flips_to_make_binary_grid_palindromic_i.cpp.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build/_deps/fmt-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++  -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/src/format.cc",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/src/format.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/Users/wangzhehao/Projects/leetcode_cpp/test-build/_deps/fmt-build",
+  "command": "/opt/homebrew/Cellar/llvm/18.1.8/bin/clang++  -I/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/include -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/src/os.cc",
+  "file": "/Users/wangzhehao/Projects/leetcode_cpp/dependencies/fmt/src/os.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+}
+]
