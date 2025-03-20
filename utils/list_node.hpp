@@ -6,6 +6,7 @@
 #define LEETCODE_CPP_LIST_NODE_HPP
 
 #include <string>
+#include <vector>
 #include <fmt/ranges.h>
 
 struct ListNode {
