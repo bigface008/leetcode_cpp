@@ -31,7 +31,7 @@ vector<int> node2Vec(const ListNode *head) {
     return vec;
 }
 
-void listNodeAssert(std::string &&prefix, ListNode *head, std::vector<int> &&vec) {
+void listNodeAssert(std::string &&prefix, ListNode *head, const std::vector<int> &&vec) {
     auto node_vec = node2Vec(head);
     bool same = equal(node_vec.begin(), node_vec.end(), vec.begin(), vec.end());
     leetcode_assert(same, "{} output={} expect={}", std::move(prefix), node_vec, vec);

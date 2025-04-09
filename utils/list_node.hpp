@@ -24,7 +24,7 @@ ListNode *newList(const std::vector<int> &&vec);
 
 std::vector<int> node2Vec(const ListNode *head);
 
-void listNodeAssert(std::string &&prefix, ListNode *head, std::vector<int> &&vec);
+void listNodeAssert(std::string &&prefix, ListNode *head, const std::vector<int> &&vec);
 
 template <>
 struct fmt::formatter<ListNode> : fmt::formatter<std::string> {
