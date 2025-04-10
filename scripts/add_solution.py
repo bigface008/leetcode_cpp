@@ -51,7 +51,14 @@ class LeetCodeFuncDef:
         params = line[fn_end + 1:f_end].split(', ')
         res: List[Tuple[str, str]] = []
         for param in params:
-            tp, pn = param.split()
+            # tp, pn = param.split()
+            sp = param.split()
+            if len(sp) == 2:
+                tp, pn = sp
+            else:
+                param_start = param.rfind(' ')
+                pn = param[param_start + 1:]
+                tp = param[:param_start]
             if tp.endswith('&'):
                 tp += '&'
             res.append((tp, pn))
