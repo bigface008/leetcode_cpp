@@ -6,6 +6,42 @@
 
 using namespace std;
 
+class Solution {
+public:
+    int longestCommonSubsequence(string text1, string text2) {
+        const int N = text1.size(), M = text2.size();
+        vector<vector<int>> dp(N, vector<int>(M, 0));
+        bool valid = false;
+        for (int i = 0; i < N; i++) {
+            if (text2[0] == text1[i]) {
+                valid = true;
+            }
+            if (valid) {
+                dp[i][0] = 1;
+            }
+        }
+        valid = false;
+        for (int j = 0; j < M; j++) {
+            if (text1[0] == text2[j]) {
+                valid = true;
+            }
+            if (valid) {
+                dp[0][j] = 1;
+            }
+        }
+        for (int i = 1; i < N; i++) {
+            for (int j = 1; j < M; j++) {
+                if (text1[i] == text2[j]) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+        return dp[N - 1][M - 1];
+    }
+};
+
 void backtrack(int &ans, int i, int curr_len, int j_min, const string &s1, const string &s2,
                map<char, vector<int>> &s2mp, vector<bool> &visited) {
     const int M = s1.size(), N = s2.size();
